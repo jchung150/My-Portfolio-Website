@@ -1,4 +1,10 @@
 [[redirects]]
+  from = "/comp4537/lab00/*"
+  to = "https://comp4537lab00.netlify.app/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/comp4537/lab01/*"
   to = "https://comp4537lab01.netlify.app/:splat"
   status = 200
