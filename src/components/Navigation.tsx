@@ -28,7 +28,7 @@ interface NavigationProps {
 const drawerWidth = 240;
 const navItems: [string, string][] = [
   ["Expertise", "expertise"],
-  ["History", "history"],
+  ["Education", "education"],
   ["Projects", "projects"],
   ["Contact", "contact"],
 ];
