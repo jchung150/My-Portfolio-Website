@@ -37,7 +37,7 @@ function Timeline() {
             className="vertical-timeline-element--work"
             date="2023 - PRESENT"
             iconStyle={{ background: "#C70039", color: "rgb(39, 40, 34)" }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            icon={<FontAwesomeIcon icon={faSchool} />}
           >
             <h3 className="vertical-timeline-element-title">
               Computer Science Technology (Diploma)

@@ -16,16 +16,21 @@ function Project() {
       <h1>Personal Projects</h1>
       <div className="projects-grid">
         <div className="project">
-          <a href="https://www.filmate.club/" target="_blank" rel="noreferrer">
+          <a href="https://www.juanchung.net/" target="_blank" rel="noreferrer">
             <img src={mock10} className="zoom" alt="thumbnail" width="100%" />
           </a>
-          <a href="https://www.filmate.club/" target="_blank" rel="noreferrer">
-            <h2>Filmate AI</h2>
+          <a href="https://www.juanchung.net/" target="_blank" rel="noreferrer">
+            <h2>Voice Cart App</h2>
           </a>
           <p>
+            Developed a grocery shopping list app with voice recognition and
+            food recommendations, utilizing OpenAI GPT-3.5 Turbo, Python, and
+            React.
+          </p>
+          {/* <p>
             Developed movie finder app with semantic search and sentiment
             analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.
-          </p>
+          </p> */}
         </div>
         <div className="project">
           <a
