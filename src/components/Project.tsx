@@ -1,4 +1,4 @@
-import mock01 from "../assets/images/mock01.png";
+import gsl01 from "../assets/images/gsl01.png";
 import mock02 from "../assets/images/mock02.png";
 import mock03 from "../assets/images/mock03.png";
 import mock04 from "../assets/images/mock04.png";
@@ -7,7 +7,6 @@ import mock06 from "../assets/images/mock06.png";
 import mock07 from "../assets/images/mock07.png";
 import mock08 from "../assets/images/mock08.png";
 import mock09 from "../assets/images/mock09.png";
-import mock10 from "../assets/images/mock10.png";
 import "../assets/styles/Project.scss";
 
 function Project() {
@@ -16,21 +15,25 @@ function Project() {
       <h1>Personal Projects</h1>
       <div className="projects-grid">
         <div className="project">
-          <a href="https://www.juanchung.net/" target="_blank" rel="noreferrer">
-            <img src={mock10} className="zoom" alt="thumbnail" width="100%" />
+          <a
+            href="https://smart-grocery-shopping-app.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={gsl01} className="zoom" alt="thumbnail" width="100%" />
           </a>
-          <a href="https://www.juanchung.net/" target="_blank" rel="noreferrer">
-            <h2>Voice Cart App</h2>
+          <a
+            href="https://smart-grocery-shopping-app.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2>Intelligent Grocery Shopping Cart</h2>
           </a>
           <p>
-            Developed a grocery shopping list app with voice recognition and
-            food recommendations, utilizing OpenAI GPT-3.5 Turbo, Python, and
-            React.
+            Intelligent Grocery Shopping Cart is an app for managing grocery
+            lists. It allows users to create and modify lists, add items via
+            voice control, and receive recipe suggestions based on cart items.
           </p>
-          {/* <p>
-            Developed movie finder app with semantic search and sentiment
-            analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.
-          </p> */}
         </div>
         <div className="project">
           <a
@@ -199,7 +202,7 @@ function Project() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mock01} className="zoom" alt="thumbnail" width="100%" />
+            <img src={gsl01} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
             href="https://github.com/yujisatojr/submeowrine"
