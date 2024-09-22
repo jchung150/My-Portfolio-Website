@@ -10,8 +10,9 @@
   status = 200
   force = true
 
-  [[redirects]]
-  from = "/smart-grocery-shopping-app/*"
-  to = "https://smart-grocery-shopping-app.netlify.app/:splat"
+[[redirects]]
+  from = "/smart-grocery-shopping-app/api/*"
+  to = "https://smart-grocery-shopping-app.netlify.app/.netlify/functions/:splat"
   status = 200
   force = true
+  headers = { Host = "smart-grocery-shopping-app.netlify.app" }
