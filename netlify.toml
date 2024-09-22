@@ -12,6 +12,6 @@
 
   [[redirects]]
   from = "/smart-grocery-shopping-app/*"
-  to = "https://smart-grocery-shopping-app.netlify.app/"
+  to = "https://smart-grocery-shopping-app.netlify.app/:splat"
   status = 200
   force = true
