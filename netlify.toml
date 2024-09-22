@@ -9,3 +9,9 @@
   to = "https://comp4537lab01.netlify.app/:splat"
   status = 200
   force = true
+
+  [[redirects]]
+  from = "/smart-grocery-shopping-app/*"
+  to = "https://smart-grocery-shopping-app.netlify.app/"
+  status = 200
+  force = true
