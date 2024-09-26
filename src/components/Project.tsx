@@ -1,11 +1,5 @@
 import gsl01 from "../assets/images/gsl01.png";
 import gsl02 from "../assets/images/gsl02.png";
-import mock03 from "../assets/images/mock03.png";
-import mock04 from "../assets/images/mock04.png";
-import mock05 from "../assets/images/mock05.png";
-import mock06 from "../assets/images/mock06.png";
-import mock07 from "../assets/images/mock07.png";
-import mock08 from "../assets/images/mock08.png";
 import "../assets/styles/Project.scss";
 
 function Project() {
