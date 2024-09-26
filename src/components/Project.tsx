@@ -34,6 +34,7 @@ function Project() {
             voice control, and receive recipe suggestions based on cart items.
           </p>
         </div>
+
         <div className="project">
           <a
             href="https://2800-202310-bby-19.vercel.app/"
@@ -55,13 +56,14 @@ function Project() {
             with the help of the OpenAI Chat GPT.
           </p>
         </div>
+
         <div className="project">
           <a
             href="https://yujisatojr.itch.io/spacecraft"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mock08} className="zoom" alt="thumbnail" width="100%" />
+            <img src={gsl01} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
             href="https://yujisatojr.itch.io/spacecraft"
@@ -75,13 +77,14 @@ function Project() {
             project is hosted on the Itch.io public marketplace.
           </p>
         </div>
+
         <div className="project">
           <a
             href="https://www.datumlearn.com/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mock07} className="zoom" alt="thumbnail" width="100%" />
+            <img src={gsl01} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
             href="https://www.datumlearn.com/"
@@ -98,7 +101,7 @@ function Project() {
         </div>
         <div className="project">
           <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer">
-            <img src={mock06} className="zoom" alt="thumbnail" width="100%" />
+            <img src={gsl01} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer">
             <h2>WeManage: Real Estate Asset Management</h2>
@@ -115,7 +118,7 @@ function Project() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mock05} className="zoom" alt="thumbnail" width="100%" />
+            <img src={gsl01} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
             href="https://www.byuh.edu/covid-19-case-management"
@@ -137,7 +140,7 @@ function Project() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mock04} className="zoom" alt="thumbnail" width="100%" />
+            <img src={gsl01} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
             href="https://github.com/yujisatojr/multi-reg-analysis"
@@ -159,7 +162,7 @@ function Project() {
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mock03} className="zoom" alt="thumbnail" width="100%" />
+            <img src={gsl01} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
             href="https://holokai.byuh.edu/programs-of-study"
@@ -172,47 +175,6 @@ function Project() {
             Designed and developed a custom component for a CMS-based platform
             (e.g., 'Brightspot') using Java, Handlebars, and LESS. University
             students can find their majors of interest through this module.
-          </p>
-        </div>
-        <div className="project">
-          <a
-            href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={mock02} className="zoom" alt="thumbnail" width="100%" />
-          </a>
-          <a
-            href="https://hookele.byuh.edu/transfer-evaluation-guidelines-and-matrix"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <h2>Transfer Evaluation Matrix</h2>
-          </a>
-          <p>
-            Created an interactive CSV table generator with Java, Handlebars,
-            and LESS. This project helps transfer students to quickly identify
-            eligible credits.
-          </p>
-        </div>
-        <div className="project">
-          <a
-            href="https://github.com/yujisatojr/submeowrine"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={gsl01} className="zoom" alt="thumbnail" width="100%" />
-          </a>
-          <a
-            href="https://github.com/yujisatojr/submeowrine"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <h2>Submeowrine</h2>
-          </a>
-          <p>
-            Developed and released an Android mobile application using Java and
-            Android Studio that runs a 2D shooting game.
           </p>
         </div>
       </div>
