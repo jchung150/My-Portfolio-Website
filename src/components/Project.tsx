@@ -1,12 +1,11 @@
 import gsl01 from "../assets/images/gsl01.png";
-import mock02 from "../assets/images/mock02.png";
+import gsl02 from "../assets/images/gsl02.png";
 import mock03 from "../assets/images/mock03.png";
 import mock04 from "../assets/images/mock04.png";
 import mock05 from "../assets/images/mock05.png";
 import mock06 from "../assets/images/mock06.png";
 import mock07 from "../assets/images/mock07.png";
 import mock08 from "../assets/images/mock08.png";
-import mock09 from "../assets/images/mock09.png";
 import "../assets/styles/Project.scss";
 
 function Project() {
@@ -37,23 +36,23 @@ function Project() {
         </div>
         <div className="project">
           <a
-            href="https://yujisatojr.itch.io/highspeedchase"
+            href="https://2800-202310-bby-19.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={mock09} className="zoom" alt="thumbnail" width="100%" />
+            <img src={gsl02} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
-            href="https://yujisatojr.itch.io/highspeedchase"
+            href="https://2800-202310-bby-19.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
-            <h2>High Speed Chase</h2>
+            <h2>Interactive Story Platform</h2>
           </a>
           <p>
-            Designed, developed, and launched a 3D multiplayer racing game with
-            C# and Unity. This is available on Itch.io for gamers worldwide to
-            enjoy.
+            As a member of a team of four, developed a community platform that
+            connects writers and readers, enabling them to create unique stories
+            with the help of the OpenAI Chat GPT.
           </p>
         </div>
         <div className="project">
