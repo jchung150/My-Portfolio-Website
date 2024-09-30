@@ -1,5 +1,6 @@
 import gsl01 from "../assets/images/gsl01.png";
 import gsl02 from "../assets/images/gsl02.jpg";
+import gsl03 from "../assets/images/gsl03.png";
 import "../assets/styles/Project.scss";
 
 function Project() {
@@ -45,30 +46,32 @@ function Project() {
             <h2>Interactive Story Platform</h2>
           </a>
           <p>
-            As a member of a team of four, developed a community platform that
-            connects writers and readers, enabling them to create unique stories
-            with the help of the OpenAI Chat GPT.
+            Created an innovative community platform connecting writers and
+            readers, leveraging OpenAI's ChatGPT to facilitate collaborative
+            storytelling. The project earned recognition as the Most Innovative
+            Project.
           </p>
         </div>
 
         <div className="project">
           <a
-            href="https://yujisatojr.itch.io/spacecraft"
+            href="https://www.youtube.com/watch?v=L-uHfkAf6Vc"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={gsl01} className="zoom" alt="thumbnail" width="100%" />
+            <img src={gsl03} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
-            href="https://yujisatojr.itch.io/spacecraft"
+            href="https://www.youtube.com/watch?v=L-uHfkAf6Vc"
             target="_blank"
             rel="noreferrer"
           >
-            <h2>Astro Raiders</h2>
+            <h2>Study With Me</h2>
           </a>
           <p>
-            Developed and released a 2D shooting game with C# and Unity. This
-            project is hosted on the Itch.io public marketplace.
+            Designed and implemented a backend system for a community platform
+            enabling focused, silent study sessions with like-minded students.
+            This project earned second place in the 2024 QDS Hackathon.
           </p>
         </div>
 

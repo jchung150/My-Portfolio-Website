@@ -22,6 +22,12 @@
   force = true
 
 [[redirects]]
+  from = "/comp4537/lab03/*"
+  to = "http://137.184.0.84/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/smart-grocery-shopping-app/*"
   to = "https://smart-grocery-shopping-app.netlify.app/:splat"
   status = 200
