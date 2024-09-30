@@ -1,7 +1,38 @@
 import gsl01 from "../assets/images/gsl01.png";
 import gsl02 from "../assets/images/gsl02.jpg";
-import gsl03 from "../assets/images/gsl03.png";
+import gsl03 from "../assets/images/gsl03.jpg";
 import "../assets/styles/Project.scss";
+import Chip from "@mui/material/Chip";
+
+const intelligentGroceryShoppingCart = [
+  "Personal Project",
+  "JavaScript",
+  "React",
+  "SWR",
+  "Dexie",
+  "React-Speech-Recognition",
+  "Material UI",
+];
+
+const interactiveStoryPlatform = [
+  "Team Project",
+  "JavaScript",
+  "React",
+  "Next.js",
+  "Node.js",
+  "MongoDB",
+  "Tailwind CSS",
+];
+
+const studyWithMe = [
+  "Team Project",
+  "TypeScript",
+  "React",
+  "Next.js",
+  "Prisma",
+  "Tailwind CSS",
+  "Post CSS",
+];
 
 function Project() {
   return (
@@ -28,6 +59,11 @@ function Project() {
             lists. It allows users to create and modify lists, add items via
             voice control, and receive recipe suggestions based on cart items.
           </p>
+          <div className="flex-chips">
+            {intelligentGroceryShoppingCart.map((label, index) => (
+              <Chip key={index} className="chip" label={label} />
+            ))}
+          </div>
         </div>
 
         <div className="project">
@@ -51,6 +87,11 @@ function Project() {
             storytelling. The project earned recognition as the Most Innovative
             Project.
           </p>
+          <div className="flex-chips">
+            {interactiveStoryPlatform.map((label, index) => (
+              <Chip key={index} className="chip" label={label} />
+            ))}
+          </div>
         </div>
 
         <div className="project">
@@ -66,13 +107,18 @@ function Project() {
             target="_blank"
             rel="noreferrer"
           >
-            <h2>Study With Me</h2>
+            <h2>Virtual Silent Study Rooms</h2>
           </a>
           <p>
             Designed and implemented a backend system for a community platform
             enabling focused, silent study sessions with like-minded students.
             This project earned second place in the 2024 QDS Hackathon.
           </p>
+          <div className="flex-chips">
+            {studyWithMe.map((label, index) => (
+              <Chip key={index} className="chip" label={label} />
+            ))}
+          </div>
         </div>
 
         <div className="project">
