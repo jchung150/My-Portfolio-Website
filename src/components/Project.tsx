@@ -1,6 +1,7 @@
 import gsl01 from "../assets/images/gsl01.png";
 import gsl02 from "../assets/images/gsl02.jpg";
 import gsl03 from "../assets/images/gsl03.jpg";
+import gsl04 from "../assets/images/gsl04.jpg";
 import "../assets/styles/Project.scss";
 import Chip from "@mui/material/Chip";
 
@@ -33,6 +34,8 @@ const studyWithMe = [
   "Tailwind CSS",
   "Post CSS",
 ];
+
+const testAutomation = ["Team Project", "Cucumber", "Playwright"];
 
 function Project() {
   return (
@@ -110,9 +113,10 @@ function Project() {
             <h2>Virtual Silent Study Rooms</h2>
           </a>
           <p>
-            Designed and implemented a backend system for a community platform
-            enabling focused, silent study sessions with like-minded students.
-            This project earned second place in the 2024 QDS Hackathon.
+            Developed and implemented automated testing code using Cucumber and
+            Playwright, successfully automating 20+ critical test cases for the
+            client's prepaid card website, enabling CI/CD of core
+            functionalities.
           </p>
           <div className="flex-chips">
             {studyWithMe.map((label, index) => (
@@ -123,25 +127,31 @@ function Project() {
 
         <div className="project">
           <a
-            href="https://www.datumlearn.com/"
+            href="https://www.canadapost-prepaid.ca/"
             target="_blank"
             rel="noreferrer"
           >
-            <img src={gsl01} className="zoom" alt="thumbnail" width="100%" />
+            <img src={gsl04} className="zoom" alt="thumbnail" width="100%" />
           </a>
           <a
-            href="https://www.datumlearn.com/"
+            href="https://www.canadapost-prepaid.ca/"
             target="_blank"
             rel="noreferrer"
           >
-            <h2>Datum: Integrated Learning Platform</h2>
+            <h2>Website Test Automation</h2>
           </a>
           <p>
             This is an online educational platform that provides high-quality,
             data science-focused learning resources in the Japanese language. I
             created the entire platform from scratch using Ruby on Rails.
           </p>
+          <div className="flex-chips">
+            {testAutomation.map((label, index) => (
+              <Chip key={index} className="chip" label={label} />
+            ))}
+          </div>
         </div>
+
         <div className="project">
           <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer">
             <img src={gsl01} className="zoom" alt="thumbnail" width="100%" />
