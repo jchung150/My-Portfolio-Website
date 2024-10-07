@@ -35,7 +35,7 @@ const studyWithMe = [
   "Post CSS",
 ];
 
-const testAutomation = ["Team Project", "Cucumber", "Playwright"];
+const testAutomation = ["Team Project", "TypeScript", "Cucumber", "Playwright"];
 
 function Project() {
   return (
