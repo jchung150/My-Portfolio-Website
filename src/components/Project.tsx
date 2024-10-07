@@ -153,7 +153,7 @@ function Project() {
           </div>
         </div>
 
-        <div className="project">
+        {/* <div className="project">
           <a href="http://www.wemanage.jp/" target="_blank" rel="noreferrer">
             <img src={gsl01} className="zoom" alt="thumbnail" width="100%" />
           </a>
@@ -165,8 +165,9 @@ function Project() {
             their property information and view future income predictions. This
             app is built with Ruby on Rails and JavaScript.
           </p>
-        </div>
-        <div className="project">
+        </div> */}
+
+        {/* <div className="project">
           <a
             href="https://www.byuh.edu/covid-19-case-management"
             target="_blank"
@@ -187,8 +188,9 @@ function Project() {
             v4. The dashboard served the university's leadership in their
             decision-making processes.
           </p>
-        </div>
-        <div className="project">
+        </div> */}
+
+        {/* <div className="project">
           <a
             href="https://github.com/yujisatojr/multi-reg-analysis"
             target="_blank"
@@ -209,8 +211,9 @@ function Project() {
             multi-regression analysis. This project leveraged Python and various
             libraries such as Pandas, NumPy, Matplotlib, and Scikit-Learn.
           </p>
-        </div>
-        <div className="project">
+        </div> */}
+
+        {/* <div className="project">
           <a
             href="https://holokai.byuh.edu/programs-of-study"
             target="_blank"
@@ -230,7 +233,7 @@ function Project() {
             (e.g., 'Brightspot') using Java, Handlebars, and LESS. University
             students can find their majors of interest through this module.
           </p>
-        </div>
+        </div> */}
       </div>
     </div>
   );
