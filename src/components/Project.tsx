@@ -1,7 +1,7 @@
 import gsl01 from "../assets/images/gsl01.png";
 import gsl02 from "../assets/images/gsl02.jpg";
 import gsl03 from "../assets/images/gsl03.jpg";
-import gsl04 from "../assets/images/gsl04.jpg";
+import gsl04 from "../assets/images/gsl04.png";
 import "../assets/styles/Project.scss";
 import Chip from "@mui/material/Chip";
 
