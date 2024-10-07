@@ -2,6 +2,7 @@ import gsl01 from "../assets/images/gsl01.png";
 import gsl02 from "../assets/images/gsl02.jpg";
 import gsl03 from "../assets/images/gsl03.jpg";
 import gsl04 from "../assets/images/gsl04.png";
+
 import "../assets/styles/Project.scss";
 import Chip from "@mui/material/Chip";
 
@@ -113,10 +114,9 @@ function Project() {
             <h2>Virtual Silent Study Rooms</h2>
           </a>
           <p>
-            Developed and implemented automated testing code using Cucumber and
-            Playwright, successfully automating 20+ critical test cases for the
-            client's prepaid card website, enabling CI/CD of core
-            functionalities.
+            Designed and implemented a backend system for a community platform
+            enabling focused, silent study sessions with like-minded students.
+            This project earned second place in the 2024 QDS Hackathon.
           </p>
           <div className="flex-chips">
             {studyWithMe.map((label, index) => (
@@ -141,9 +141,10 @@ function Project() {
             <h2>Website Test Automation</h2>
           </a>
           <p>
-            This is an online educational platform that provides high-quality,
-            data science-focused learning resources in the Japanese language. I
-            created the entire platform from scratch using Ruby on Rails.
+            Developed and implemented automated testing code using Cucumber and
+            Playwright, successfully automating 20+ critical test cases for the
+            client's prepaid card website, enabling CI/CD of core
+            functionalities.
           </p>
           <div className="flex-chips">
             {testAutomation.map((label, index) => (
